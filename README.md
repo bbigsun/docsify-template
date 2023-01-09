@@ -6,7 +6,6 @@
 
 关于 [docsify](https://github.com/docsifyjs/docs-zh) ，一个神奇的文档网站生成器。docsify 可以快速帮你生成文档网站。不同于 GitBook、Hexo 的地方是它不会生成静态的 `.html` 文件，所有转换工作都是在运行时。如果你想要开始使用它，只需要创建一个 `index.html` 就可以开始编写文档并直接[部署在 GitHub Pages | Gitlab Pages | Gitee Pages | Firebase主机 | VPS | Netlify | ZEIT Now | AWS Amplify | Docker](https://docsify.js.org/#/zh-cn/deploy)。
 
-如果网速不够快，加载不出来，可以在查看 [🐾 docsify 中文文档](/docsify-docs-zh-cn/)。
 
 - `_media` : 图片存放位置（必须存放在这里）
 - `_coverpage.md` : 封面
@@ -17,8 +16,22 @@
 
 #### 使用 Gitee Pages 搭建在线文档
 
-1、将本项目 fork 到个人仓库
+?> <>
 
+1、将本项目 fork 到个人仓库 
+
+[![star](https://gitee.com/bbigsun/docsify-template/badge/star.svg?theme=white)](https://gitee.com/bbigsun/docsify-template/stargazers)
+[![fork](https://gitee.com/bbigsun/docsify-template/badge/fork.svg?theme=white)](https://gitee.com/bbigsun/docsify-template/members)
+
+2、开启 Gitee Pages 服务
+
+- 必须为开源仓库
+- 需要实名认证
+
+3、使用 Gitee Pages 服务部署
+
+![](_media/gitee-pages-01.png)
+![](_media/gitee-pages-02.png)
 
 
 #### 使用 GitHub Pages 搭建在线文档
