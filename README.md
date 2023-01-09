@@ -1,6 +1,6 @@
-## Docsify Template
+## 🪶 Docsify Template
 
-#### 简介
+#### 👉 简介
 
 ?> 这是一个使用 Docsify 搭建在线文档的模板。本文主要介绍如何搭建自己的在线文档
 
@@ -13,10 +13,13 @@
 - `_sidebar.md` : 自定义侧边栏，无则显示当前文章的目录
 - `index.html` : 渲染模板文件
 - `README.md` : 网页显示的内容
+- `index-online.html` : 渲染模板文件，使用在线 css 和 js 文件
+- `index-local.html` : 渲染模板文件，将 css 和 js 文件提前缓存到本地
+- `docsify` : 提前缓存的 css 和 js 文件
 
-#### 使用 Gitee Pages 搭建在线文档
+#### 👉 使用 Gitee Pages 搭建在线文档
 
-?> <https://bbigsun.gitee.io/docsify-template>
+?> 演示地址：<https://bbigsun.gitee.io/docsify-template>
 
 1、将本项目 fork 到个人仓库 
 
@@ -34,24 +37,24 @@
 ![](_media/gitee-pages-02.png)
 
 
-#### 使用 GitHub Pages 搭建在线文档
+#### 👉 使用 GitHub Pages 搭建在线文档
 
-> 稍等稍等
-
-
-#### 使用私人的服务器搭建
-
-!> 这部分内容，随后完善。
-
-1、按提示修改 `install.sh` 脚本
-2、服务器上执行脚本即可。
+!> 稍等稍等
 
 
-#### 提高网站加载速度
+#### 👉 使用私人的服务器搭建
+
+!> 稍等稍等
+
+
+####  👉 提高网站加载速度
 
 ?> 将所需的 css 和 js 文件存放在本地，可以提高网站的加载速度。  
 
-本人已经为大家安排好了一切，使用时只需将 `index-local.html` 文件替换 `index.html` 文件即可。
+目前使用的是本地的 css 与 js 文件。
+
+- 使用本地的，将 `index-local.html` 文件替换 `index.html` 文件。
+- 使用在线的，将 `index-online.html` 文件替换 `index.html` 文件。
 
 #### 支持
 
