@@ -39,15 +39,30 @@
 
 #### 👉 使用 GitHub Pages 搭建在线文档
 
-!> 稍等稍等
+?> 演示地址：<https://bbigsun.github.io/docsify-template/>
+
+1、将本项目 fork 到个人仓库 
 
 
-#### 👉 使用私人的服务器搭建
+2、开启 GitHub Pages 服务
 
-!> 稍等稍等
+- 必须为开源仓库
+- 不需要实名认证
+- 需要 `.nojekyll` 文件
+
+3、使用 GitHub Pages 服务部署
+
+![](_media/github-pages-01.png)
 
 
-####  👉 提高网站加载速度
+4、使用自定义域名
+
+?> 参考：https://docs.github.com/zh/pages/configuring-a-custom-domain-for-your-github-pages-site
+
+![](_media/github-pages-02.png)
+
+
+#### 👉 提高网站加载速度
 
 ?> 将所需的 css 和 js 文件存放在本地，可以提高网站的加载速度。  
 
@@ -56,7 +71,7 @@
 - 使用本地的，将 `index-local.html` 文件替换 `index.html` 文件。
 - 使用在线的，将 `index-online.html` 文件替换 `index.html` 文件。
 
-#### 支持
+#### 👉 支持
 
 如果觉得对您有帮助，欢迎 fork and star。
 
